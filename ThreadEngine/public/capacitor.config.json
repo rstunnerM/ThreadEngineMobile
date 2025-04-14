@@ -1,0 +1,15 @@
+{
+  "appId": "com.threadengine.app",
+  "appName": "ThreadEngine",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "backgroundColor": "#ffffff"
+    }
+  },
+  "cordova": {}
+}

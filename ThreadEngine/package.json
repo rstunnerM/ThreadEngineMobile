@@ -1,0 +1,23 @@
+{
+  "name": "threadengine-unified",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "android:init": "npx cap init threadengine com.threadengine.app",
+    "android:add": "npx cap add android",
+    "android:sync": "npx cap sync",
+    "android:run": "npx cap open android"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@capacitor/core": "^5.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.1.0",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "@capacitor/cli": "^5.0.0"
+  }
+}

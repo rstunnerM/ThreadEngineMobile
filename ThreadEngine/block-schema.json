@@ -1,0 +1,26 @@
+{
+  "layout": [
+    {
+      "type": "button",
+      "props": {
+        "label": "Run Command"
+      }
+    },
+    {
+      "type": "slider",
+      "props": {
+        "label": "Volume",
+        "min": 0,
+        "max": 100,
+        "value": 50
+      }
+    },
+    {
+      "type": "toggle",
+      "props": {
+        "label": "Enable Auto Mode",
+        "value": true
+      }
+    }
+  ]
+}
